@@ -3,7 +3,7 @@
 #include "CoreMinimal.h"
 #include "Curves/CurveFloat.h"
 #include "BowComponent.h"
-#include "Camera/CameraShake.h"
+#include "Camera/ShootCameraShake.h"
 #include "GameFramework/Character.h"
 #include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
@@ -64,7 +64,7 @@ public:
 
 	// _______________________CAMERA PARAMETERS_____________________________
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "SelfParameters\|Camera", meta = (AllowPrivateAccess = "true"))
-	TSubclassOf<UMatineeCameraShake> ShootShake;
+	TSubclassOf<UShootCameraShake> ShootShake;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SelfParameters\|Camera\|Rates")
 	
