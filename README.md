@@ -5,6 +5,10 @@
 
 https://user-images.githubusercontent.com/91843760/221441428-bf7e701f-b3ef-4176-a6bf-5254ecf9acd0.mp4
 
+## **Informations**
+
+This project allowed us to use all our knowledge of Unreal Engine and to learn how to port a game to another platform.
+
 ## **Controls**
 
 ### QWERTY
